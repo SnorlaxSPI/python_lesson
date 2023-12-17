@@ -13,8 +13,8 @@ triplo = numero*3
 #raiz_quadrada = numero ** 0.5
 raiz_quadrada = math.sqrt(numero)
 
-print(f'Dobro: {dobro}')
-print(f'Triplo: {triplo}')
+print(f'Dobro de {numero}: {dobro}')
+print(f'Triplo de {numero}: {triplo}')
 print(f'A raiz quadrada de {numero} é {raiz_quadrada:.2f}')
 #print('A raiz de {} é igual a {}'.format(numero, raiz_quadrada))
 

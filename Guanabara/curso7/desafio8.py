@@ -4,10 +4,13 @@ print(f'{"":=^33}')
 print('valor em metros e converta em cm')
 print(f'{"":=^33}')
 
-metros = int(input('Digite um valor em metros: '))
+#metros = int(input('Digite um valor em metros: '))
+#converter = (metros * 100)
+#print(f'O valor de metros em centímetros é: {converter} cm')
 
-converter = (metros * 100)
+medida = float(input('Uma distância em metros: '))
+cm = medida * 100
+mm = medida * 1000
 
-print(f'O valor de metros em centímetros é: {converter} cm')
-
+print(f'A medida de {medida}m corresponde a {cm:.0f}cm e {mm:.0f}mm')
 
